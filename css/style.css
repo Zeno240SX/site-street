@@ -1,0 +1,185 @@
+/* Navbar Custom Styling */
+.navbar-custom {
+    background: rgba(0, 0, 0, 0.5)
+    transition: background-color 0.3s ease;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    font-size: 1rem;
+    font-weight: 600;
+    color: white !important;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+}
+
+.navbar-custom .navbar-nav .nav-link:hover {
+    color: #f4a261 !important;
+}
+
+/* Navbar Brand Styling */
+.navbar-custom .navbar-brand {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: white !important;
+}
+
+.navbar-custom .navbar-brand img {
+    width: 120px;
+    height: 120px;
+}
+
+.navbar-custom {
+            background-color: transparent !important;
+            transition: background-color 0.3s ease;
+        }
+
+        .navbar-custom.scrolled {
+            background-color: rgba(0, 0, 0, 0.7) !important;
+        }
+
+        /* Tombol navigasi berubah warna saat scroll */
+        .navbar-nav .nav-link {
+            color: white !important;
+        }
+
+        .navbar-nav .nav-link.active,
+        .navbar-nav .nav-link:hover {
+            color: #f8f9fa !important;
+        }
+
+        /* Posisi tombol menu hamburger ke kanan */
+        @media (max-width: 992px) {
+            .navbar-toggler {
+                margin-left: auto;
+            }
+
+            /* Memindahkan tombol navigasi ke bawah tombol hamburger */
+            .navbar-collapse {
+                text-align: right;
+            }
+
+            /* Menjaga navigasi agar tetap di kanan */
+            .navbar-nav {
+                margin-top: 15px;
+            }
+        }
+
+        /* Mengubah background navbar saat menu dibuka */
+        .navbar-custom.open {
+            background-color: rgba(0, 0, 0, 0.7) !important;
+        }
+          
+
+ /* Logo Responsif */
+        .navbar-brand img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        /* Navbar transparan dengan perubahan warna */
+        .navbar-custom {
+            background-color: transparent !important;
+            transition: background-color 0.3s ease;
+        }
+
+        .navbar-custom.scrolled {
+            background-color: rgba(0, 0, 0, 0.7) !important;
+        }
+
+
+        /* Tombol navigasi berubah warna saat scroll */
+        .navbar-nav .nav-link {
+            color: white !important;
+        }
+
+        .navbar-nav .nav-link.active,
+        .navbar-nav .nav-link:hover {
+            color: #f8f9fa !important;
+        }
+
+        /* Posisi tombol menu hamburger ke kanan */
+        @media (max-width: 992px) {
+            .navbar-toggler {
+                margin-left: auto;
+            }
+        }
+         .navbar-custom.open {
+            background-color: rgba(0, 0, 0, 0.7) !important;
+        } 
+
+ .btn-outline-light {
+        color: black;
+        border-color: black;
+    }
+
+    .btn-outline-light:hover {
+        background-color: #fff;
+        color: #f4a261 !important;
+        border-color: black;
+    }
+
+/* Header Section */
+.hero {
+    height: 100vh;
+    background: url('../images/background/coba.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.hero h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+/* Button Styling */
+.hero .btn {
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    background-color: #f4a261;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.hero .btn:hover {
+    background-color: #e07b47;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #999;
+}
+
+footer .socials a {
+    color: #f4a261;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .socials a:hover {
+    color: #fff;
+}
+
+#testimony .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#gallery img {
+    transition: transform 0.3s ease;
+}
+
+#gallery img:hover {
+    transform: scale(1.1);
+}
